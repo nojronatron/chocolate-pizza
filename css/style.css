@@ -12,9 +12,10 @@ div {
   margin: 2px;
 }
 header {
+  width: auto;
   border: solid orange 2px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #branding {
   display: flex;
@@ -25,10 +26,12 @@ header {
   font-weight: bold;
 }
 #caps-phrase {
+  width: max-content;
   font-variant: all-small-caps;
   font-size:0.6em;
 }
 #social-media {
+  min-width: max-content;
   display:flex;
   justify-content: space-between;
 }
