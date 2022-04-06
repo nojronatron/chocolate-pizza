@@ -1,0 +1,56 @@
+body, header, main, footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 4px;
+  padding: 4px;
+}
+body {
+  border: solid black 2px;
+  border-radius: 10px;
+}
+div {
+  margin: 2px;
+}
+header {
+  border: solid orange 2px;
+  display: flex;
+  justify-content: space-between;
+}
+#branding {
+  display: flex;
+}
+#cursive {
+  font-family: 'Allura', cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#caps-phrase {
+  font-variant: all-small-caps;
+  font-size:0.6em;
+}
+#social-media {
+  display:flex;
+  justify-content: space-between;
+}
+#social-media-left {
+  margin-right: 20px;
+}
+.horiz-bar {
+  background-image: url('../imgs/hr-img.png');
+  background-repeat: repeat-x;
+  width: 200px;
+}
+#article-head {
+  width: 100%;
+  border: green solid 2px;
+  display: flex;
+  justify-content: space-between;
+}
+#article-head-words {
+  width: auto;
+  border: green solid 2px;
+}
+#printer-icon {
+  width: auto;
+  border: green solid 2px;
+}
