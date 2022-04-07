@@ -23,9 +23,7 @@ div {
   font-variant: all-small-caps;
   font-size:0.8em;
 }
-
 #above-bar {
-  border: black solid 3px;
   width: 100%;
   display:flex;
   justify-content: space-between;
@@ -36,14 +34,18 @@ div {
 #knife-and-fork {
   position: relative;
   left:0px;
+  height: 60px;
+  width: auto;
 }
 #social-media {
+  position: relative;
   display: flex;
+  height: 100%;
+  margin: 10px 0px 10px 0px;
 }
 #social-media-left {
   margin-right: 20px;
 }
-
 #title-bold {
   font-family: 'Oswald', sans-serif;
   font-size: 1.6em;
@@ -62,6 +64,9 @@ div {
 #printer-icon {
   font-variant: all-small-caps;
   font-size: 0.8em;
+  color: lightgray;
+  height: 100%;
+  margin: 40px 0px 0px 0px;
 }
 .horiz-bar {
   width: auto;
@@ -108,27 +113,48 @@ ul  {
 .strike-me {
   text-decoration: line-through;
 }
+footer {
+  margin-top: 40px;
+}
 button {
   background-color: lightcoral;
   color: lightgrey;
-  padding: 8px 15px;
+  margin: 15px 5px;
   text-align: center;
   display: inline-block;
   font-size: 15px;
   font-weight: thin;
   font-variant: all-small-caps;
-  width: 160px;
+  width: max-content;
   height: 40px;
   border: solid lightcoral 2px;
 }
-#author-name {
-  font-weight: bolder;
+
+.author-info {
+  margin-top: 40px;
 }
 #author-details {
   display: flex;
   justify-content: space-between;
 }
+#author-details > img {
+  width: 70px;
+  height: auto;
+  margin: 4px;
+}
+#author-name-about {
+  padding: 4px;
+}
+#author-name {
+  font-weight: bolder;
+  margin: 7px;
+}
+#author-about {
+  font-size: 0.8em;
+  margin: 7px;
+}
 #footer-rule {
+  margin-top: 20px;
   height: max-content;
   display: flex;
 }
@@ -140,13 +166,14 @@ button {
   background-image: url("../imgs/small-logo.png");
   background-repeat: no-repeat;
   background-position: center;
-  width: 50px;
+  width: 60px;
   height: auto;
   padding: 10px;
   display: inline;
   
 }
 #copyright-published {
+  margin-top: 20px;
   width: 100%;
 }
 #copyright {
