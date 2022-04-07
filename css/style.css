@@ -21,10 +21,47 @@ div {
 #caps-phrase {
   width: max-content;
   font-variant: all-small-caps;
-  font-size:0.6em;
+  font-size:0.8em;
+}
+
+#above-bar {
+  border: black solid 3px;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+}
+#branding {
+  display: flex;
+}
+#knife-and-fork {
+  position: relative;
+  left:0px;
+}
+#social-media {
+  display: flex;
 }
 #social-media-left {
   margin-right: 20px;
+}
+
+#title-bold {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6em;
+  font-weight: bolder;
+}
+#caps-posting {
+  color: rgb(214, 213, 213);
+  font-variant: all-small-caps;
+  font-size: 0.8em;
+}
+#article-head {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+#printer-icon {
+  font-variant: all-small-caps;
+  font-size: 0.8em;
 }
 .horiz-bar {
   width: auto;
