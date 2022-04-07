@@ -3,12 +3,15 @@
 body, header, main, footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  border: solid black 2px;
+  /* border: solid black 2px; */
   margin: 2px;
   padding: 4px;
 }
 body {
   border-radius: 10px;
+}
+div {
+  margin: 2px;
 }
 #cursive {
   font-family: 'Allura', cursive;
@@ -62,8 +65,56 @@ li:hover:before
     margin-right: 7px;
 }
 ul  {
-  font-weight: bold;
+  font-size: 1.2em;
+  font-weight:bold;
 }
 .strike-me {
   text-decoration: line-through;
+}
+button {
+  background-color: lightcoral;
+  color: lightgrey;
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: thin;
+  font-variant: all-small-caps;
+  width: 160px;
+  height: 40px;
+  border: solid lightcoral 2px;
+}
+#author-name {
+  font-weight: bolder;
+}
+#author-details {
+  display: flex;
+  justify-content: space-between;
+}
+#footer-rule {
+  height: max-content;
+  display: flex;
+}
+.hr-rule {
+  height: 20px;
+  width: 50%;
+}
+#footer-logo {
+  background-image: url("../imgs/small-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: auto;
+  padding: 10px;
+  display: inline;
+  
+}
+#copyright-published {
+  width: 100%;
+}
+#copyright {
+  text-align: center;
+}
+#published {
+  text-align: center;
 }
