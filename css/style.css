@@ -70,10 +70,12 @@ div {
 }
 .horiz-bar {
   width: auto;
-  height: 10px;
+  height: 6px;
   background-image: url("../imgs/hr-img.png");
   background-repeat: repeat-x;
-  background-size: 10px 10px;
+  background-size: 6px 6px;
+  margin: 0px;
+  padding: 0px;
 }
 #recipe-image img {
   width: 100%;
