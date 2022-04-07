@@ -1,0 +1,186 @@
+/* UL LI CSS lifted from: https://stackoverflow.com/questions/7463391/how-to-create-open-square-checkbox-style-list-marker-for-html-unordered-list */
+
+body, header, main, footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  /* border: solid black 2px; */
+  margin: 2px;
+  padding: 4px;
+}
+body {
+  border-radius: 10px;
+}
+div {
+  margin: 2px;
+}
+#cursive {
+  font-family: 'Allura', cursive;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#caps-phrase {
+  width: max-content;
+  font-variant: all-small-caps;
+  font-size:0.8em;
+}
+#above-bar {
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+}
+#branding {
+  display: flex;
+}
+#knife-and-fork {
+  position: relative;
+  left:0px;
+  height: 60px;
+  width: auto;
+}
+#social-media {
+  position: relative;
+  display: flex;
+  height: 100%;
+  margin: 10px 0px 10px 0px;
+}
+#social-media-left {
+  margin-right: 20px;
+}
+#title-bold {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6em;
+  font-weight: bolder;
+}
+#caps-posting {
+  color: rgb(214, 213, 213);
+  font-variant: all-small-caps;
+  font-size: 0.8em;
+}
+#article-head {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+#printer-icon {
+  font-variant: all-small-caps;
+  font-size: 0.8em;
+  color: lightgray;
+  height: 100%;
+  margin: 40px 0px 0px 0px;
+}
+.horiz-bar {
+  width: auto;
+  height: 6px;
+  background-image: url("../imgs/hr-img.png");
+  background-repeat: repeat-x;
+  background-size: 6px 6px;
+  margin: 0px;
+  padding: 0px;
+}
+#recipe-image img {
+  width: 100%;
+  height: auto;
+}
+#recipe-instructions {
+  width: auto;
+  height: 250px;
+  border: solid grey 3px;
+  background-image: url("../imgs/list-bg.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  font-family: cursive;
+  font-size: 1.4em;
+  list-style: none;
+  min-width: 300px;
+}
+li:before
+{
+  /* from stackoverflow */
+    content: "\2610";
+    margin-right:7px;
+}
+li:hover:before
+{
+  /* from stackoverflow */
+    content: "\2611";
+    margin-right: 7px;
+}
+ul  {
+  font-size: 1.2em;
+  font-weight:bold;
+}
+.strike-me {
+  text-decoration: line-through;
+}
+footer {
+  margin-top: 40px;
+}
+button {
+  background-color: lightcoral;
+  color: lightgrey;
+  margin: 15px 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: thin;
+  font-variant: all-small-caps;
+  width: max-content;
+  height: 40px;
+  border: solid lightcoral 2px;
+}
+
+.author-info {
+  margin-top: 40px;
+}
+#author-details {
+  display: flex;
+  justify-content: space-between;
+}
+#author-details > img {
+  width: 70px;
+  height: auto;
+  margin: 4px;
+}
+#author-name-about {
+  padding: 4px;
+}
+#author-name {
+  font-weight: bolder;
+  margin: 7px;
+}
+#author-about {
+  font-size: 0.8em;
+  margin: 7px;
+}
+#footer-rule {
+  margin-top: 20px;
+  height: max-content;
+  display: flex;
+}
+.hr-rule {
+  height: 20px;
+  width: 50%;
+}
+#footer-logo {
+  background-image: url("../imgs/small-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60px;
+  height: auto;
+  padding: 10px;
+  display: inline;
+  
+}
+#copyright-published {
+  margin-top: 20px;
+  width: 100%;
+}
+#copyright {
+  text-align: center;
+}
+#published {
+  text-align: center;
+}
