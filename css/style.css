@@ -2,27 +2,11 @@ body, header, main, footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   border: solid black 2px;
+  margin: 2px;
+  padding: 4px;
 }
 body {
   border-radius: 10px;
-  margin: 4px;
-  padding: 4px;
-}
-header {
-  width: auto;
-  border: solid orange 2px;
-  margin: 2px;
-  padding: 2px;
-}
-#above-bar {
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  border: solid red 2px;
-}
-#branding {
-  display: flex;
-  border: solid green 2px;
 }
 #cursive {
   font-family: 'Allura', cursive;
@@ -34,34 +18,14 @@ header {
   font-variant: all-small-caps;
   font-size:0.6em;
 }
-#social-media {
-  align-self:flex-end;
-  display: flex;
-  align-content: space-between;
-  min-width: max-content;
-  border: solid blue 2px;
-}
 #social-media-left {
   margin-right: 20px;
-  border: solid orange 2px;
 }
 .horiz-bar {
   background-image: url('../imgs/hr-img.png');
   background-repeat: repeat-x;
-  width: 200px;
-  border:solid pink 2px;
 }
-#article-head {
-  width: 100%;
-  border: green solid 2px;
-  display: flex;
-  justify-content: space-between;
-}
-#article-head-words {
-  width: auto;
-  border: green solid 2px;
-}
-#printer-icon {
-  width: auto;
-  border: green solid 2px;
+#recipe-instructions {
+  background-image: url('../imgs/list-bg.png');
+  background-repeat: no-repeat;
 }
